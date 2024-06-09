@@ -1,0 +1,25 @@
+{
+  "name": "vinutils",
+  "version": "1.0.0",
+  "description": "bunch of useful utility functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinod-kayartaya/js-vinutils.git"
+  },
+  "keywords": [
+    "utilities",
+    "object",
+    "table",
+    "json"
+  ],
+  "author": "Vinod Kumar Kayartaya <vinod@vinod.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinod-kayartaya/js-vinutils/issues"
+  },
+  "homepage": "https://github.com/vinod-kayartaya/js-vinutils#readme"
+}
