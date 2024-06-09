@@ -1,18 +1,20 @@
-# vinutils
+# vinjsutils
 
 > Bunch of useful JavaScript utility functions
 
 <pre>
-        _             _   _ _     
-       (_)           | | (_) |    
- __   ___ _ __  _   _| |_ _| |___ 
- \ \ / / | '_ \| | | | __| | / __|
-  \ V /| | | | | |_| | |_| | \__ \
-   \_/ |_|_| |_|\__,_|\__|_|_|___/
+        _       _           _   _ _     
+       (_)     (_)         | | (_) |    
+ __   ___ _ __  _ ___ _   _| |_ _| |___ 
+ \ \ / / | '_ \| / __| | | | __| | / __|
+  \ V /| | | | | \__ \ |_| | |_| | \__ \
+   \_/ |_|_| |_| |___/\__,_|\__|_|_|___/
+              _/ |                      
+             |__/ 
 </pre>
 
 ```sh
-npm install vinutils
+npm install vinjsutils
 ```
 
 ### `printTable`
@@ -20,7 +22,7 @@ npm install vinutils
 Example usage:
 
 ```javascript
-import { printTable } from 'vinutils';
+import { printTable } from 'vinjsutils';
 
 const customers = [
   {
