@@ -64,3 +64,29 @@ Output:
 | 3  | Darrelle   | Duffrie   | Female | dduffrie2@storify.com | 591-446-8117 |
 +----+------------+-----------+--------+-----------------------+--------------+
 ```
+
+### printObject
+
+Example usage:
+
+```javascript
+import { printObject } from 'vinjsutils';
+
+const data = {
+  id: 1,
+  name: 'Alice',
+  age: 25,
+  hobbies: ['reading', 'hiking', 'cooking'],
+  address: {
+    street: '123 Main St',
+    city: 'Wonderland',
+    postalCode: '12345',
+    nestedObject: {
+      key1: 'value1',
+      key2: 'value2',
+    },
+  },
+};
+
+printObject(data);
+```
